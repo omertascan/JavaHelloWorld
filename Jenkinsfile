@@ -6,7 +6,7 @@ stages {
 stage('Build'){
   steps  {
    sh 'make' 
-   archiveArtifacts artiacts: ' **/target/*.jar  ', fingerprint:true 
+   archiveArtifacts artifacts: ' **/target/*.jar  ', fingerprint:true 
    
    
   
