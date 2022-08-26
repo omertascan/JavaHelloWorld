@@ -8,7 +8,7 @@ stage('Build'){
   steps  {
    
    sh 'make' 
-   archiveArtifacts artifacts: ' generatedFile.txt  ', fingerprint:true 
+   archiveArtifacts artifacts: ' **/target/*.jar  ', fingerprint:true 
   }
   
   }
