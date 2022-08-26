@@ -22,12 +22,12 @@ stage('Build'){
   }   
   stage('Deploy'){
   
-    steps{
-     sh  echo  'Deployed'
+    
   }
-  
+  steps{
+     sh  echo  'Deployed'
 
-  
+  }
   
   }
   
