@@ -30,7 +30,7 @@ stage('Build'){
   }
   
   steps{
-     sh 'make publish'
+     sh 'Deployed'
   
   
   }
